@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Apple';
+    src: url('/fontes/appleberry.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+:root {
+    --var1: #A5A4A6;
+    --var2: #D9D9D9;
+    --var3: #212126;
+    --var4: #555459;
+    --var5: #0D0D0D;
+
+    --font-destaque: 'Apple';
+    --font-titulo: 'Bebas Neue', cursive;
+}
+
+body {
+    background-color: #A5A4A6;
+    
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #A5A4A6, #555459, #0D0D0D);
+    padding: 10px;
+}
+
+header h1 {
+    text-align: center;
+    padding: 15px;
+    font-family: 'apple';
+    text-shadow: 1px 1px 0px black;
+    font-size: 2.5em;
+}
+
+header nav {
+    color: #0D0D0D;
+    font-weight: bolder;
+    display: inline-block;
+    padding: 15px;
+    font-size: 1em;
+    
+}
+
+header nav:hover {
+    background-color: #555459;
+    transition: 0.4s;
+    border-radius: 10px;
+    text-decoration: underline;
+}
+
+header > nav#entrar {
+    text-align: right;
+}
+
+main {
+    margin: auto;
+    background-color: rgb(218, 216, 216);
+    width: 55vw;
+    box-shadow: 0px 0px 5px black;
+}
+
+main h1 {
+    color: #212126;
+    font-family: 'Bebas Neue', cursive;
+    padding: 10px;
+    font-size: 1.7em;
+    text-shadow: 1px 0px 0px #0D0D0D;
+}
+
+main h2 {
+    color: #212126;
+    font-family: 'Bebas Neue', cursive;
+    text-indent: 10px;
+}
+
+main h3 {
+    color: #212126;
+    font-family: 'Bebas Neue', cursive;
+    text-indent: 10px;
+}
+
+main p {
+    padding: 10px;
+    font-size: 1.1em;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5em;
+}
+
+main a {
+    text-decoration: none;
+    background-color: #555459;
+    padding: 5px;
+    color: #D9D9D9;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: #0D0D0D;
+}
+
+img {
+    height: 300px;
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+
+aside {
+    background-color: #555459;
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+    font-weight: bold;
+    color: #0D0D0D;
+}
+
+aside ul {
+    list-style-type: '\1F4F1';
+    list-style-position: inside;
+    columns: 2;
+    text-indent: 50px;
+    padding: 10px;
+}
+
+footer {
+    background-color: #555459;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;;
+}
+
+footer a:hover {
+    color: #212126;
+    text-decoration: underline;
+}
+
+form {
+    
+}
