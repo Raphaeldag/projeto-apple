@@ -67,6 +67,12 @@ div a {
     color: #0D0D0D;
 }
 
+#caixa {
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 0px 0px 5px black;
+}
+
 main {
     margin: auto;
     background-color: rgb(218, 216, 216);
@@ -138,9 +144,20 @@ aside ul {
     padding: 10px;
 }
 
+caption {
+    font-weight: bolder;
+    font-size: 1.3em;
+    padding: 10px;
+}
+
 table {
     border-collapse: collapse;
-    margin-top: 30px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(184, 218, 184, 0.507);
 }
 
 td {
@@ -153,6 +170,10 @@ th {
     padding: 10px;
 }
 
+thead > tr > th {
+    background-color: #d4d4d4;
+}
+
 footer {
     background-color: #555459;
     text-align: center;
@@ -160,6 +181,16 @@ footer {
     font-weight: bold;
     font-size: 1em;
     padding: 5px;
+}
+
+#tvideo {
+    margin-top: 20px;
+}
+
+#video {
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 150px;
 }
 
 footer a {
