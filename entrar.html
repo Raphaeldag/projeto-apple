@@ -22,6 +22,8 @@
             height: 500px;
             width: 600px;
             border-radius: 15px;
+            box-shadow: 0px 0px 10px black;
+            text-align: justify;
         }
 
         #email {
@@ -31,6 +33,19 @@
 
         h1 {
             padding: 30px;
+            text-shadow: 0px 0px 3px black;
+        }
+
+        #footer {
+            margin-top: 90px;
+            font-weight: bolder;
+        }
+
+        #continuar {
+            background-color: green;
+            padding: 10px;
+            border-radius: 15px;
+            margin-top: 15px;
         }
     </style>
 </head>
@@ -41,10 +56,13 @@
             
             <form action="" method="get" autocomplete="on">
                 E-mail <input id="email" type="email" name="email" id="iemail" required placeholder="Digite seu email"> <br>
-                Senha <input type="password" name="senha" id="isenha" required placeholder="Digite sua senha">
+                Senha <input type="password" name="senha" id="isenha" required placeholder="Digite sua senha"> <br>
+                <input id="continuar" type="submit" value="Continuar">
 
                 <p>Ainda não se cadastrou? <a href="#">clique aqui</a></p>
             </form>
+            
+            <p id="footer"> &#x00A9; Mundo Apple</p>
         </div>
     </main>
 </body>

@@ -20,14 +20,15 @@
             text-align: center;
             margin: auto;
             margin-top: 130px;
+            border-radius: 15px;
         }
 
         h1 {
             padding: 30px;
+            text-shadow: 0px 0px 3px black;
         }
 
         #nome {
-            margin-top: 15px;
             margin-bottom: 10px;
         }
 
@@ -53,8 +54,15 @@
 
         p {
             font-weight: bolder;
-            margin-top: 80px;
+            margin-top: 60px;
         }
+
+        #continuar {
+            background-color: green;
+            padding: 10px;
+            border-radius: 15px;
+            margin-top: 15px;
+        }    
     </style>
 </head>
 <body>
@@ -67,9 +75,10 @@
                 Data <input id="data" type="date" name="data" id="idata" required> <br>
                 Email <input id="email" type="email" name="email" id="iemail" required placeholder="Digite seu Email"> <br>
                 Senha <input id="senha" type="password" name="senha" id="isenha" required placeholder="Digite sua senha"> <br>
-                Confirmar senha <input id="csenha" type="password" name="senha" id="isenha" required placeholder="Confirme sua senha">
+                Confirmar senha <input id="csenha" type="password" name="senha" id="isenha" required placeholder="Confirme sua senha"> <br>
+                <input id="continuar" type="submit" value="Continuar">
             </form>
-            <p>Mundo Apple</p>
+            <p> &#x00A9; Mundo Apple</p>
         </div>
     </main>
 </body>
