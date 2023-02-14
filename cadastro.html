@@ -16,7 +16,7 @@
         div {
             background-color: #555459;
             width: 600px;
-            height: 500px;
+            height: 550px;
             text-align: center;
             margin: auto;
             margin-top: 130px;
@@ -25,36 +25,7 @@
 
         h1 {
             padding: 30px;
-            text-shadow: 0px 0px 3px black;
-        }
-
-        #nome {
-            margin-bottom: 10px;
-            width: 190px;
-        }
-
-        #data {
-            margin-top: 10px;
-            margin-bottom: 10px;
-            width: 190px;
-        }
-
-        #email {
-            margin-top: 10px;
-            margin-bottom: 10px;
-            width: 190px;
-        }   
-
-        #senha {
-            margin-top: 10px;
-            margin-bottom: 10px;
-            width: 190px;
-        }
-
-        #csenha {
-            margin-top: 10px;
-            margin-bottom: 10px;
-            width: 190px;
+            text-shadow: 0px 0px 2px black;
         }
 
         p {
@@ -67,7 +38,18 @@
             padding: 10px;
             border-radius: 15px;
             margin-top: 15px;
-        }    
+        }
+
+        #continuar:hover {
+            background-color: darkgreen;
+        }
+        
+        .mcadastro {
+            margin: 10px;
+            padding: 5px;
+            width: 200px;
+            border-radius: 15px;
+        }
     </style>
 </head>
 <body>
@@ -76,15 +58,15 @@
             <h1>Cadastre no nosso site e desfrute do nosso serviço!</h1>
 
             <form action="" method="get" autocomplete="on">
-                <label for="iname">Nome</label> <input id="nome" type="text" name="name" id="iname" required placeholder="Nome Completo"> <br>
+                <label for="iname">Nome</label> <input class="mcadastro" type="text" name="name" id="iname" required placeholder="Nome Completo"> <br>
                 
-                <label for="idata">Data</label> <input id="data" type="date" name="data" id="idata" required> <br>
+                <label for="idata">Data</label> <input class="mcadastro" type="date" name="data" id="idata" required> <br>
                 
-                Email <input id="email" type="email" name="email" id="iemail" required placeholder="Digite seu Email"> <br>
+                <label for="iemail">Email</label> <input class="mcadastro" type="email" name="email" id="iemail" required placeholder="Digite seu Email"> <br>
                 
-                Senha <input id="senha" type="password" name="senha" id="isenha" required placeholder="Digite sua senha"> <br>
+                <label for="isenha">Senha</label> <input class="mcadastro" type="password" name="senha" id="isenha" required placeholder="Digite sua senha"> <br>
                 
-                Confirmar <input id="csenha" type="password" name="senha" id="isenha" required placeholder="Confirme sua senha"> <br>
+                <label for="csenha">Confirmar</label> <input class="mcadastro" type="password" name="senha" id="csenha" required placeholder="Confirme sua senha"> <br>
                 <input id="continuar" type="submit" value="Continuar">
             </form>
             <p> &#x00A9; Mundo Apple</p>

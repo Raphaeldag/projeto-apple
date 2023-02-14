@@ -17,27 +17,28 @@
             margin: auto;
             margin-top: 130px;
             text-align: center;
-            text-align: middle;
             background-color: #A5A4A6;
-            height: 500px;
+            height: 570px;
             width: 600px;
             border-radius: 15px;
             box-shadow: 0px 0px 10px black;
             
         }
 
-        #email {
+        .mentrar {
             margin-bottom: 15px;
-            margin-top: 110px;
+            padding: 5px;
+            border-radius: 15px;
         }
 
         h1 {
             padding: 30px;
             text-shadow: 0px 0px 3px black;
+            margin-bottom: 90px;
         }
 
         #footer {
-            margin-top: 90px;
+            margin-top: 170px;
             font-weight: bolder;
         }
 
@@ -47,6 +48,20 @@
             border-radius: 15px;
             margin-top: 15px;
         }
+
+        #continuar:hover {
+            background-color: darkgreen;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgba(0, 0, 255, 0.822)
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: white;
+        }
     </style>
 </head>
 <body>
@@ -55,9 +70,9 @@
             <h1>Fique por dentro de tudo!</h1>
             
             <form action="" method="get" autocomplete="on">
-                <label for="iemail">E-mail</label> <input id="email" type="email" name="email" id="iemail" required placeholder="Digite seu email"> <br>
+                <label for="iemail">E-mail</label> <input class="mentrar" type="email" name="email" id="iemail" required placeholder="Digite seu email"> <br>
                 
-                Senha <input type="password" name="senha" id="isenha" required placeholder="Digite sua senha"> <br>
+                <label for="isenha">Senha</label> <input class="mentrar" type="password" name="senha" id="isenha" required placeholder="Digite sua senha"> <br>
                 <input id="continuar" type="submit" value="Continuar">
 
                 <p>Ainda não se cadastrou? <a href="cadastro.html">clique aqui</a></p>
