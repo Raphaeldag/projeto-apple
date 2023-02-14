@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Apple';
-    src: url('/fontes/appleberry.ttf');
+    src: url('/fontes/appleberry.ttf') format('truetype');
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
